@@ -40,5 +40,5 @@ jobs:
       - name: workflow info
         run: |
           pwd
-          ls
+          ls -lat
           ls /.github/workflows
