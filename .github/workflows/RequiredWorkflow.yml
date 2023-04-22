@@ -39,4 +39,4 @@ jobs:
 
       - name: workflow info
         run: |
-          ls ./github/wokflows
+          ls ./github/workflows
