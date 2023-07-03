@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  status_checks:
+  ansible_checks:
     runs-on: ubuntu-latest
 
     steps:

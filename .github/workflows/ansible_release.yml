@@ -12,7 +12,7 @@ env:
   GH_TOKEN: ${{ github.token }}
 
 jobs:
-  deploy_release:
+  deploy_release_ansible:
     runs-on: ubuntu-latest
 
     steps:
