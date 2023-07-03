@@ -1,4 +1,4 @@
-name: Checks
+name: Ansible Checks
 
 # Controls when the workflow will run
 on:
