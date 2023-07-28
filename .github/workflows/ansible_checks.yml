@@ -23,6 +23,7 @@ jobs:
         shell: bash
         run: | 
           ansible-galaxy collection install community.general
+          ansible-galaxy collection list
           ansible --version
 
       - name: Run ansible-lint
