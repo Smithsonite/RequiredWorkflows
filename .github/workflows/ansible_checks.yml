@@ -21,7 +21,9 @@ jobs:
       
       - name: Install Ansible community collection 
         shell: bash
-        run: ansible-galaxy collection install community.general.modprobe
+        run: | 
+          ansible-galaxy collection install community.general
+          ansible --version
 
       - name: Run ansible-lint
         uses: ansible/ansible-lint-action@v6.17.0
