@@ -27,7 +27,7 @@ jobs:
           ansible --version
 
       - name: Run ansible-lint
-        uses: ansible/ansible-lint-action@v6.11.0
+        uses: ansible/ansible-lint-action@main
       
       - name: Check Tag Version Syntax
         uses: smithsonite/checkalltags@v1
